@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.unlink('/tmp/hello',(err)=>{
+fs.unlink('test.txt',(err)=>{
     if(err) throw err;
-    console.log("successfully deleted /tmp/hello");
+    console.log("successfully deleted /test.txt");
 })
